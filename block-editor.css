@@ -1,0 +1,9 @@
+.thunk-sticky-header{
+	position: fixed;
+    z-index: 999;
+    width:100%;
+    -webkit-animation: fadeOutUpBig .5s ease;
+    animation: fadeOutUpBig .5s ease;
+    box-shadow: 0 0 10px rgba(0,0,0,.08);  
+    z-index: 999999;
+}

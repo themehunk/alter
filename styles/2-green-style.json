@@ -1,0 +1,46 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "title": "Light Purple Style",
+    "version": 2,
+    "settings": {
+      "color": {
+        "palette": [
+          {
+            "color": "#bda4c9",
+            "name": "Background",
+            "slug": "background"
+          },
+          {
+            "color": "#111",
+            "name": "Dark Background",
+            "slug": "dark-background"
+          },
+          {
+            "color": "#372044",
+            "name": "Light Background",
+            "slug": "light-background"
+          },
+          {
+            "color": "#242424",
+            "name": "C1",
+            "slug": "light-text"
+          },
+          {
+            "color": "#FFF",
+            "name": "C2",
+            "slug": "dark-text"
+          },
+          {
+            "slug": "bodytext",
+            "color": "#FFF",
+            "name": "Body Text"
+          },
+          {
+            "color": "#FFFFFF",
+            "name": "Accent",
+            "slug": "accent"
+          }
+        ]
+      }
+    }
+  }
