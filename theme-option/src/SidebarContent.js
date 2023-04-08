@@ -6,21 +6,15 @@ const SidebarContent = () => {
         <Fragment>
             <div className="sidebar-option-content-wrp">
                <div className="content-box">
-                <h3> {wpapi.themeName}{ __( ' Premium Theme', 'alter' )}</h3>
-                <p>{__( 'You’re using the free version of the alter Theme with limited features and functionality. You can upgrade to alter Pro Theme for Advanced features, Custom Sections, and more useful options to customize your website easily.', 'alter' )}</p>
-                <a href="https://themehunk.com/templates/alter-pro/" target="_blank" className="content-link button"> {__( 'Upgrade To Pro', 'alter' )}</a>
-               </div>
-               <hr></hr>
-               <div className="content-box">
-                <h3> {__( 'Why Upgrade?', 'alter' )}</h3>
-                <p>{__( 'Upgrading to alter Premium you will unlock dozen of unique features that will take your website to the next level. See the Comparison table for more details.', 'alter' )}</p>
-                <a href="https://themehunk.com/templates/alter-pro/" target="_blank" className="content-link button"> {__( 'Pro Demo', 'alter' )}</a>
+                <h3> { __( 'ThemeHunk Premium Themes', 'alter' )}</h3>
+                <p>{__( 'ThemeHunk specializes in creating premium WordPress themes and plugins. We offer extensive documentation, video tutorials, and a dedicated support team to help users with any questions or issues they may encounter.', 'alter' )}</p>
+                <a href="https://themehunk.com/pro-wordpress-themes/" target="_blank" className="content-link button"> {__( 'View Premium Themes', 'alter' )}</a>
                </div>
                <hr></hr>
                <div className="content-box">
                 <h3> {__( 'Leave us a review', 'alter' )}</h3>
                 <p>{__( 'We would love to hear your feedback.', 'alter' )}</p>
-                <a href="https://wordpress.org/support/theme/alter/reviews/?filter=5" className="content-link"> {__( 'Submit review', 'alter' )}</a>
+                <a href="#" className="content-link" target="_blank"> {__( 'Submit review', 'alter' )}</a>
                </div>
                <hr></hr>
                <div className="content-box">
