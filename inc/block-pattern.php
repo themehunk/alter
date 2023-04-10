@@ -48,8 +48,9 @@
 	$block_patterns = array(
 		'hero-2',
 		'header',
-		'footer-default',
 		'service',
+		'blog',
+		'footer-default',
 		'testimonial',
 		'team',
 		'ribbon',
