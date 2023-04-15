@@ -33,7 +33,8 @@ class Alter_theme_option{
    
   }
    
-   function alter_enqueue_scripts() {
+   function alter_enqueue_scripts($hook_suffix) {
+    if($hook_suffix == 'appearance_page_alter_thunk_started') {
     
     wp_enqueue_style( 'alter-settings-css', get_template_directory_uri() . '/theme-option/build/style-index.css', array(), '1.0.0', false );
 
@@ -52,6 +53,7 @@ class Alter_theme_option{
         )
     );
    }
+  }
 
    function alter_settings_page() {
     ?>
